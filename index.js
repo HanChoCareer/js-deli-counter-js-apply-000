@@ -3,9 +3,11 @@ var counter = 1;
 
 function takeANumbe(line){
   line.push(counter);
+  var result =`Welcome! You're ticket number # ${counter}`;
+  
   counter++;
   
-  return `Welcome! You're ticket number # ${counter}`;
+  return result;
 }
 
 // takeANumber(line) => "Welcome! You're ticket number #1" [1]
